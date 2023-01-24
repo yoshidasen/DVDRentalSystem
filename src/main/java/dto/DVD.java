@@ -5,9 +5,9 @@ public class DVD {
 	String name ;
 	String directed_by ;
 	int number;
-	int rental ;
+	Boolean rental ;
 	
-	public DVD(int id, String name,String directed_by,int number,int rental) {
+	public DVD(int id, String name,String directed_by,int number,Boolean rental) {
 		super();
 		this.id = id;
 		this.name = name;
@@ -40,10 +40,10 @@ public class DVD {
 	public void setNumber(int number) {
 		this.number = number;
 	}
-	public int getRental() {
+	public Boolean getRental() {
 		return rental;
 	}
-	public void setRental(int rental) {
+	public void setRental(Boolean rental) {
 		this.rental = rental;
 	}
 }

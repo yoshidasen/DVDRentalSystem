@@ -42,7 +42,7 @@ public class DVDDAO {
 					String name=rs.getString("name");
 					String directed_by = rs.getString("directed_by");
 					int number = rs.getInt("number");
-					int rental = rs.getInt("rental");
+					Boolean rental = rs.getBoolean("rental");
 
 					DVD employee=new DVD(id,name,directed_by,number,rental);
 					
