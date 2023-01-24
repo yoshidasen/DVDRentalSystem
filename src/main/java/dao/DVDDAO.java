@@ -30,7 +30,7 @@ public class DVDDAO {
 	
 		List<DVD> result = new ArrayList<>();
 
-		String sql = "SELECT * FROM DVD";
+		String sql = "SELECT * FROM dvd";
 		
 		try (
 				Connection con = getConnection();
