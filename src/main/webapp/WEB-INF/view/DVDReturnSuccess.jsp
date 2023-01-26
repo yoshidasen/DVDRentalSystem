@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>返却完了</title>
 </head>
 <body>
 	<p>返却完了</p>

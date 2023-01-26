@@ -5,12 +5,23 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>ホーム</title>
 <link rel="stylesheet" href="./css/style_y.css">
 <link rel="icon" type="image/png" href="">
 </head>
 <body>
 <body>
+	<header id="header">
+	  <div class="logo"><img class="logo" src="" alt="logo"></div>
+	  <nav>
+	    <ul class="nav__list">
+	    	<li class="nav__item"><a href=""></a></li>
+			<li class="nav__item"><a href=""></a></li>
+			<li class="nav__item"><a href=""></a></li>
+			<li class="nav__item"><a href=""></a></li>
+		</ul>
+	  </nav>
+	</header>
 	<%
 		DVD_Account ac = (DVD_Account)session.getAttribute("user");
 	%>
@@ -52,9 +63,10 @@
 		</div>
 	</div>
 	
-	<footer>
+	<!-- <footer>
 		<p><small>&copy; morijyobi</small></p>
 	</footer>
+	 -->
 
 </body>
 </html>
