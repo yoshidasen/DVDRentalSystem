@@ -12,6 +12,10 @@
 <title>一覧表示</title>
 </head>
 <body>
+<form action="SelectListServlet" method="post">
+<p>商品検索:<input type="text" name="name"></p>
+<input type="submit" value="検索">
+</form>
 <h1>商品一覧</h1>
 	<table border="1">
 		<tr>

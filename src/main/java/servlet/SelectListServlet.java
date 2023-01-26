@@ -14,16 +14,16 @@ import dao.DVDDAO;
 import dto.DVD;
 
 /**
- * Servlet implementation class listServlet
+ * Servlet implementation class SelectListServlet
  */
-@WebServlet("/listServlet")
-public class listServlet extends HttpServlet {
+@WebServlet("/SelectListServlet")
+public class SelectListServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public listServlet() {
+    public SelectListServlet() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -32,11 +32,11 @@ public class listServlet extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// DBから全件データを取得
-		List<DVD> selectAllBooks = DVDDAO.selectAllBooks();
+		// DBから必要なデータを取得
+		List<DVD> selectDVD = DVDDAO.selectDVD();
 		
 		// 取得したリストをリクエストスコープに保管(JSPに渡すため)
-		request.setAttribute("list", selectAllBooks);
+		request.setAttribute("list", selectDVD);
 		
 		String view = "WEB-INF/view/list.jsp";
 		RequestDispatcher dispatcher = request.getRequestDispatcher(view);
