@@ -46,9 +46,9 @@
 		
 		<div class="container">
 			<div class="item"><a href="">一覧</a><br></div>
-			<div class="item"><a href=""></a><br></div>
-			<div class="item"><a href=""></a><br></div>
-			<div class="item"><a href=""></a><br></div>
+			<div class="item"><a href="">追加</a><br></div>
+			<div class="item"><a href="">削除</a><br></div>
+			<div class="item"><a href="">更新</a><br></div>
 		</div>
 	</div>
 	
