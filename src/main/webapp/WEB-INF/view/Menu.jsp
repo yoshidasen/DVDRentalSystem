@@ -32,7 +32,7 @@
 
 			</script>
 		
-			<img class="home_image" src=""><br>
+			<img class="home_image" src="./images/dvd.png"><br>
 		
 		</article>
 		
@@ -41,7 +41,7 @@
 		    <label>
 		        <input type="text" name="name" placeholder="キーワードを入力">
 		    </label>
-		    <button type="submit" aria-label="検索"></button>
+		    <button type="submit" aria-label="検索" ></button>
 		</form>
 		
 		<div class="container">
