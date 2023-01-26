@@ -8,5 +8,6 @@
 </head>
 <body>
 	<p>返却完了</p>
+	<a href="Menu.jsp">ホームに戻る</a>
 </body>
 </html>

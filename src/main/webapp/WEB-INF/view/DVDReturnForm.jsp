@@ -15,5 +15,6 @@
 
 	<a href="DVDReturnSuccessServlet?id=<%=id %>">返す</a>
 	<a href="">戻る</a>
+	<a href="Menu.jsp">ホームに戻る</a>
 </body>
 </html>

@@ -8,5 +8,6 @@
 </head>
 <body>
 	<p>貸出失敗</p>
+	<a href="Menu.jsp">ホームに戻る</a>
 </body>
 </html>

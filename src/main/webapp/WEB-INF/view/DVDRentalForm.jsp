@@ -15,5 +15,6 @@
 
 	<a href="DVDRentalSuccessServlet?id=<%=id %>">借りる</a>
 	<a href="">戻る</a>
+	<a href="Menu.jsp">ホームに戻る</a>
 </body>
 </html>
